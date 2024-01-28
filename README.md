@@ -1,9 +1,4 @@
-# DocuGen Setup Script
-
-<p align="center">
-  <img src="https://example.com/react_icon.ico" alt="React Icon" width="100"/>
-  <img src="https://example.com/angular_icon.ico" alt="Angular Icon" width="100"/>
-</p>
+# 🛠️ DocuGen Setup Script
 
 ## Introduction
 

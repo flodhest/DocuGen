@@ -41,7 +41,7 @@ Welcome to the DocuGen Setup Script! This script automates the setup process for
 
 1. Clone or download the repository.
 2. Ensure that PowerShell execution policy allows running scripts (`Set-ExecutionPolicy RemoteSigned`).
-3. Run the `./setup.dh` script as an administrator in bash
+3. Run the `./setup.sh` script as an administrator in bash
 
 ## Troubleshooting
 

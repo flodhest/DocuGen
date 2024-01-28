@@ -47,7 +47,7 @@ setup_react() {
   echo "Setting up React..."
   cd "$base_directory/"
   npx -p @storybook/cli sb init
-  pnp1m run storybook1
+  pnpm run storybook1
 }
 
 install_documentation_generators() {

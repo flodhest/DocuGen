@@ -2,14 +2,14 @@
 
 ## Introduction
 
-Welcome to the DocuGen Setup Script! This script automates the setup process for generating documentation for React and Angular projects. It streamlines the installation of necessary tools and configurations, making it easier to generate documentation for your projects.
+Welcome to the DocuGen Setup Script! This script automates the setup process for generating documentation for React and Angular projects. The script not only adds context menu entries but also automatically generates documentation based on the content and structure of your projects. Choose between React Storybook and Angular Compodoc to suit your project needs.
 
 ## Functionality
 
 ### 1. Setup Options
 
-- **React Setup**: Configures the environment for generating documentation for React projects using Storybook.
-- **Angular Setup**: Sets up the environment for generating documentation for Angular projects using Compodoc.
+- **React Setup:** Configures the environment for generating documentation for React projects using Storybook.
+- **Angular Setup:** Sets up the environment for generating documentation for Angular projects using Compodoc.
 
 ### 2. Context Menu Integration
 
@@ -21,32 +21,20 @@ Welcome to the DocuGen Setup Script! This script automates the setup process for
 - Installs necessary documentation generators and tools automatically.
 - Ensures that all dependencies are in place for smooth documentation generation.
 
-### 4. Logging
-
-- Logs setup actions and errors to a `setup_log.txt` file for easy troubleshooting and tracking.
-
 ## Usage
 
-1. Run the script and choose the project type (React or Angular).
-2. Follow the prompts to proceed with the setup.
-3. The script will handle the installation of necessary dependencies and configurations.
-4. Upon completion, the setup log will be available for reference.
+1. Ensure that PowerShell execution policy allows running scripts (`Set-ExecutionPolicy RemoteSigned`).
+2. Run the `./setup.dh` script as an administrator in bash.
+3. This runs the script to add context menu entries for Angular or React.
+4. Right-click in your React or Angular-projects rootfolder.
+5. Choose either "Generate React Storybook" or "Generate Angular Compodoc" from the context menu.
+6. Follow the prompts to initiate automatic documentation generation.
 
 ## Requirements
 
+- Existing Angular or React project.
 - Windows operating system
 - PowerShell (version 5.1 or later)
-
-## Setup
-
-1. Clone or download the repository.
-2. Ensure that PowerShell execution policy allows running scripts (`Set-ExecutionPolicy RemoteSigned`).
-3. Run the `./setup.dh` script as an administrator in bash
-
-## Troubleshooting
-
-- If encountering errors, check the setup log (`setup_log.txt`) for details.
-- Ensure that all prerequisites are met and paths are correctly configured.
 
 ## License
 

@@ -27,7 +27,7 @@ Welcome to the DocuGen Setup Script! This script automates the setup process for
 2. Run the `./setup.dh` script as an administrator in bash.
 3. This runs the script to add context menu entries for Angular or React.
 4. Right-click in your React or Angular-projects rootfolder.
-5. Choose either "Generate React Storybook" or "Generate Angular Compodoc" from the context menu.
+5. Choose either "React Storybook" or "Angular Compodoc" from the context menu.
 6. Follow the prompts to initiate automatic documentation generation.
 
 ## Requirements
